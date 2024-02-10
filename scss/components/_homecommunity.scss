@@ -1,0 +1,214 @@
+.homecommunity {
+  //clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 98%);
+  background-image: url(../media/img/background-image-02.webp);
+  background-repeat: no-repeat;
+  background-position: 2px -16px;
+  padding-top: 300px;
+  .content-image_container {
+    .content-image {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .avartar-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .avatar-image-container {
+      width: 54px;
+    }
+    .movement-vid-container {
+      .movement-video {
+        padding: 0 0 2% 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .avatar-card_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    .avartar-card {
+      align-items: start;
+    }
+
+    .avatar-image-container {
+      width: 54px;
+    }
+  }
+
+  .header-container {
+    img.arrow {
+      top: 68px;
+      right: 271px;
+      position: absolute;
+      transform: rotate(-30deg);
+    }
+  }
+  .movement-testimonial-container {
+    padding: 0 180px 40px;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .homecommunity {
+    .movement-vid-container {
+      padding-left: 20px;
+    }
+    .movement-vid-container.second {
+      padding-left: 0;
+      padding-right: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .homecommunity {
+    .movement-vid-container {
+      padding-left: 0;
+    }
+    .movement-vid-container.second {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .homecommunity {
+    .avatar-card_container {
+      flex-wrap: wrap;
+      .avartar-card {
+        width: 80%;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homecommunity {
+    .header-container {
+      img.arrow {
+        right: 128px;
+      }
+    }
+
+    .avartar-card {
+      gap: 20px;
+    }
+
+    .movement-testimonial-container {
+      padding: 0 100px 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .homecommunity {
+    .content-image_container {
+      .content-image {
+        flex-wrap: wrap;
+        gap: 50px;
+        .movement-vid-container {
+          width: 100%;
+          padding: 0 50px;
+        }
+        .movement-text-container {
+          width: 100%;
+          padding: 0 50px;
+        }
+      }
+      .content-image.column-reverse {
+        flex-direction: column-reverse;
+      }
+    }
+
+    .movement-testimonial-container {
+      padding: 0 50px 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .homecommunity {
+    .header-container {
+      img.arrow {
+        right: 95px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .homecommunity {
+    .header-container {
+      img.arrow {
+        right: 36px;
+        top: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .homecommunity {
+    .content-image_container {
+      .content-image {
+        .movement-vid-container {
+          padding: 0 20px;
+        }
+        .movement-text-container {
+          padding: 0 20px;
+        }
+      }
+    }
+
+    .movement-testimonial-container {
+      padding: 0 20px 40px;
+    }
+
+    .avatar-card_container {
+      flex-wrap: wrap;
+      .avartar-card {
+        gap: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .homecommunity {
+    padding-top: 80px;
+    .content-image_container {
+      .content-image {
+        .movement-vid-container {
+          padding: 0;
+        }
+        .movement-text-container {
+          padding: 0;
+        }
+      }
+    }
+
+    .movement-testimonial-container {
+      padding: 0 0 40px;
+    }
+
+    .avatar-card_container {
+      flex-wrap: wrap;
+    }
+    .header-container {
+      img.arrow {
+        top: 0;
+        right: 0px;
+      }
+    }
+  }
+}

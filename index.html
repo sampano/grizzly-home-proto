@@ -55,8 +55,8 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", "G-KTV0GCRFMN");
+      gtag('js', new Date());
+      gtag('config', 'G-KTV0GCRFMN');
     </script>
 
     <!-- Google tag (gtag.js) -->
@@ -69,9 +69,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-91VKDM5978");
+      gtag('config', 'G-91VKDM5978');
     </script>
   </head>
   <body>
@@ -591,24 +591,24 @@
 
             window._wq = window._wq || [];
             _wq.push({
-              id: "teen23my40", // Replace with your video's hashed ID
+              id: 'teen23my40', // Replace with your video's hashed ID
               onReady: function (video) {
                 // Select the overlay image and show it
-                var overlayImage = document.querySelector(".overlay-image");
+                var overlayImage = document.querySelector('.overlay-image');
                 if (overlayImage) {
-                  overlayImage.style.display = "block";
+                  overlayImage.style.display = 'block';
                 }
 
                 // Select the header
-                var header = document.querySelector(".video-header");
+                var header = document.querySelector('.video-header');
 
                 // Hide the image and the header when the video is played
-                video.bind("play", function () {
+                video.bind('play', function () {
                   if (overlayImage) {
-                    overlayImage.style.display = "none";
+                    overlayImage.style.display = 'none';
                   }
                   if (header) {
-                    header.style.display = "none"; // Hide the header
+                    header.style.display = 'none'; // Hide the header
                   }
                 });
 
@@ -616,15 +616,15 @@
                 let testimonialRevealed = false;
 
                 // Event listener for the video time change
-                video.bind("secondchange", function (time) {
+                video.bind('secondchange', function (time) {
                   if (
                     time >= setSecondsForBottomToAppear &&
                     !testimonialRevealed
                   ) {
                     var testimonialSection =
-                      document.getElementById("testimonial-bottom");
+                      document.getElementById('testimonial-bottom');
                     if (testimonialSection) {
-                      testimonialSection.classList.remove("hidden");
+                      testimonialSection.classList.remove('hidden');
                     }
                     testimonialRevealed = true; // Set the flag to true
                   }

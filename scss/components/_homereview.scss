@@ -1,0 +1,445 @@
+.homereview {
+  position: relative;
+  padding-bottom: 100px;
+  // .homereview-video-container {
+  //   //padding-top: 135px;
+  // }
+
+  .header-container {
+    position: relative;
+    .red-arrow-icon {
+      position: absolute;
+      top: 52%;
+      right: 24%;
+    }
+
+    .stars {
+      .star {
+        margin-bottom: 1rem;
+        color: var(--bg-color-secondary);
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+  }
+  .rectangle-first {
+    position: absolute;
+    top: 34%;
+    left: 1px;
+  }
+  .rectangle-second {
+    position: absolute;
+    top: 35%;
+    left: 1px;
+  }
+  .rectangle-third {
+    position: absolute;
+    bottom: -13%;
+    right: 0;
+    z-index: 1;
+  }
+  .rectangle-fourth {
+    position: absolute;
+    bottom: -15%;
+    right: 0;
+    z-index: 1;
+  }
+
+  .home-thumbnail {
+    position: relative;
+  }
+  .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    width: 1440px;
+    .testimonial-card {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 20px;
+      border: 1px solid #cccccc;
+      border-radius: 8px;
+      /*max-width: 315px;*/
+      min-height: 215px;
+      margin-left: 10px;
+      margin-right: 10px;
+      min-height: 235px;
+      img {
+        width: 55px;
+        height: 55px;
+      }
+      .testimonial-card_text {
+        text-align: left;
+        max-width: 203px;
+        p {
+          margin-bottom: 10px;
+          line-height: 23px;
+          text-wrap: balance;
+        }
+        .stars {
+          display: flex;
+          color: var(--bg-color-secondary);
+          // padding-bottom: 20px;
+          justify-content: left;
+        }
+      }
+    }
+  }
+  .schools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .school {
+      width: 180px;
+    }
+  }
+  .wistia_responsive_padding.intro-video {
+    padding: 2% 0 2% 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+  }
+}
+
+.big-star-size {
+  .star {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+}
+
+.testimonial-centered-flat {
+  display: flex;
+  flex-direction: column; /* Stack the text and stars vertically */
+  align-items: center; /* Center the items within each testimonial card */
+}
+
+@media screen and (max-width: 1440px) {
+  .homereview {
+    padding-bottom: 0;
+    .testimonial-container {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .homereview {
+    padding-bottom: 0;
+    .header-container {
+      .red-arrow-icon {
+        top: 58%;
+        right: 25%;
+        width: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        right: 22%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 934px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -210px;
+    }
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        top: 58%;
+        right: 22%;
+      }
+    }
+    // .wistia_responsive_padding.intro-video {
+    //   margin-top: -25px;
+    // }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -250px;
+    }
+  }
+}
+
+@media only screen and (max-width: 882px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -280px;
+    }
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        right: 20%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .schools {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 820px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        top: 58%;
+        right: 18%;
+      }
+    }
+    .homereview-video-container {
+      padding-top: 80px;
+    }
+
+    .wistia_responsive_padding.intro-video {
+      margin-top: -365px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -390px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homereview {
+    padding-bottom: 0;
+    .header-container {
+      .red-arrow-icon {
+        top: 58%;
+        right: 17%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 742px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -350px;
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        right: 15%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -370px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .homereview {
+    padding-bottom: 0;
+    .header-container {
+      .red-arrow-icon {
+        right: 13%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        top: 64%;
+        right: 9%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        right: 6%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -370px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -210px;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -330px;
+    }
+
+    .header-container {
+      .red-arrow-icon {
+        top: 53%;
+        right: 3%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        top: 56%;
+        right: 5%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .homereview {
+    .wistia_responsive_padding.intro-video {
+      margin-top: -270px;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        right: 0;
+        top: 46%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        top: 53%;
+        right: -4%;
+      }
+    }
+    .homereview-video-container {
+      padding: 50px 15px;
+    }
+    .schools {
+      flex-wrap: wrap;
+      .school {
+        width: 100%;
+      }
+    }
+    .rectangle-first {
+      display: none;
+    }
+
+    .rectangle-second {
+      display: none;
+    }
+
+    .rectangle-third {
+      display: none;
+    }
+
+    .rectangle-fourth {
+      display: none;
+    }
+    .testimonial-container {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      .testimonial-card {
+        max-width: 100%;
+      }
+    }
+
+    .wistia_responsive_padding.intro-video {
+      margin-top: -180px;
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .homereview {
+    .header-container {
+      .red-arrow-icon {
+        top: 61%;
+      }
+    }
+  }
+}

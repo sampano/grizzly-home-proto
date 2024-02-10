@@ -1,0 +1,60 @@
+.homecommunity-white {
+  .content-image_container {
+    .content-image {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .content-testimonial {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    .content-testimonial_main {
+      width: 40%;
+      .content-testimonial_container {
+        background-color: #100e0e;
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+        max-width: 533px;
+        width: 100%;
+        padding: 40px;
+        p {
+          line-height: 28px;
+        }
+        .student-name {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-end;
+          gap: 10px;
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .homecommunity-white {
+    .content-image_container {
+      .content-image {
+        flex-wrap: wrap;
+      }
+    }
+
+    .content-testimonial {
+      flex-wrap: wrap;
+      align-items: center;
+      .content-testimonial_main {
+        width: 100%;
+
+        .content-testimonial_container {
+          margin: 0 auto 50px;
+        }
+      }
+    }
+  }
+}

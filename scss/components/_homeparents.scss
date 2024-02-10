@@ -1,0 +1,106 @@
+.homeparents {
+  position: relative;
+  .homeparents-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    .cta-card {
+      // border: 1px solid #000;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 10px;
+      .cta-card_text {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        // background-color: var(--bg-color-secondary);
+        padding: 30px;
+      }
+    }
+  }
+
+  p {
+    line-height: 32px;
+  }
+
+  .homeparents-content-container {
+    display: flex;
+    align-items: center; /* This will vertically center the items if their heights are different */
+    justify-content: center;
+  }
+
+  .homeparents-title {
+    font-size: 60px;
+  }
+}
+
+.homeparents.homeparents-second {
+  padding-bottom: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .homeparents-content-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    .container-parents {
+      width: 100%;
+    }
+    .homeparents-card-img {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .homeparents {
+    .homeparents-content-container {
+      flex-wrap: wrap;
+    }
+  }
+  .container-parents {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .homeparents {
+    .homeparents-title {
+      font-size: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .homeparents {
+    .homeparents-title {
+      font-size: 36px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .homeparents.homeparents-second {
+    padding-bottom: 100px;
+  }
+
+  .homeparents {
+    .homeparents-card {
+      flex-wrap: wrap;
+    }
+  }
+  .homeparents-content-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    .container-parents {
+      width: 100%;
+    }
+    .homeparents-card-img {
+      width: 100%;
+    }
+  }
+}
+
+// .container-parents {
+//   flex: 1; /* This will make each container take up an equal amount of space */
+//   padding: 10px;
+// }
